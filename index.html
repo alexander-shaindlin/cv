@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alexander J. Shaindlin - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #fff;
+        }
+
+        header {
+            margin-bottom: 40px;
+            border-bottom: 2px solid #1a1a1a;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: normal;
+            letter-spacing: 0.5px;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #333;
+            font-style: italic;
+        }
+
+        .contact-info p {
+            margin-bottom: 3px;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            font-family: Georgia, serif;
+            font-size: 22px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 25px;
+        }
+
+        .experience-item h3, .education-item h3 {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            margin-bottom: 5px;
+            font-weight: normal;
+        }
+
+        .location {
+            float: right;
+            font-style: italic;
+        }
+
+        .date {
+            font-style: italic;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        ul li:before {
+            content: "—";
+            position: absolute;
+            left: -5px;
+        }
+
+        .skills-list, .languages-list {
+            columns: 2;
+            column-gap: 40px;
+        }
+
+        .skills-list li, .languages-list li {
+            break-inside: avoid;
+            margin-bottom: 8px;
+        }
+
+        #summary {
+            font-size: 17px;
+            line-height: 1.7;
+            margin-bottom: 40px;
+        }
+
+        #summary p {
+            margin-bottom: 15px;
+        }
+
+        .interests {
+            font-size: 15px;
+            font-style: italic;
+        }
+
+        @media print {
+            body {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .skills-list, .languages-list {
+                columns: 1;
+            }
+            .location {
+                float: none;
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alexander J. Shaindlin</h1>
+        <div class="contact-info">
+            <p>shaindlin.alexander.j@gmail.com</p>
+            <p>linkedin.com/in/alexander-shaindlin/</p>
+        </div>
+    </header>
+
+    <section id="summary">
+        <p>Data-driven sustainability professional with expertise in streamlining audit processes and delivering impactful analyses. Recent MSc in Finance emphasized designing cost-saving workflows while learning to implement financial risk management and valuation strategies. Currently pursuing GARP's Sustainability and Climate Risk (SCR) Certificate.</p>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        
+        <div class="experience-item">
+            <h3>Technical Account Manager</h3>
+            <span class="location">Chicago, USA</span>
+            <p class="date">NZERO, September 2023 — Present</p>
+            <ul>
+                <li>Collect and transform Scope 1, 2, and 3 emissions data via SFTP, API, invoices, and surveys</li>
+                <li>Implemented automated QA workflow, improving speed by 400% and accuracy by 30%</li>
+                <li>Manage data collection and reporting for data centers, REITs, and municipalities</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Wine Buyer | Assistant General Manager</h3>
+            <span class="location">Chicago, USA</span>
+            <p class="date">The Noble Grape, April 2020 — August 2022</p>
+            <ul>
+                <li>Leveraged sommelier expertise to optimize inventory and drive sales during COVID-19</li>
+                <li>Maintained key distribution relationships and hosted wine club events</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Research Assistant</h3>
+            <span class="location">Chicago, USA</span>
+            <p class="date">DePaul University, January 2017 — December 2019</p>
+            <ul>
+                <li>Analyzed Singaporean biomedical sector data for "Beyond Technonationalism" publication</li>
+                <li>Presented research on gender and poverty in developing countries</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        
+        <div class="education-item">
+            <h3>Master of Science in Finance — cum laude</h3>
+            <span class="location">Antwerp, Belgium</span>
+            <p class="date">Antwerp Management School, 2022 — 2023</p>
+            <ul>
+                <li>1st place in consulting competition with Excel VBA-based solution</li>
+                <li>Awarded 'Most Innovative Project' for sustainability education initiative</li>
+            </ul>
+        </div>
+
+        <div class="education-item">
+            <h3>Certificate in Political Science</h3>
+            <span class="location">Lille, France</span>
+            <p class="date">Université Catholique de Lille, 2015 — 2016</p>
+        </div>
+
+        <div class="education-item">
+            <h3>Bachelor's Degree in International Studies</h3>
+            <span class="location">Chicago, USA</span>
+            <p class="date">DePaul University, 2012 — 2017</p>
+            <ul>
+                <li>Awards: KAKEHASHI Scholarship, Global Asian Studies Outstanding Senior</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Expertise</h2>
+        <ul class="skills-list">
+            <li>Google Sheets (Apps Script)</li>
+            <li>Excel (VBA, BERT, xlwings)</li>
+            <li>Python (Pandas/Numpy)</li>
+            <li>R (ggplot2/Tidy)</li>
+            <li>SQL, Bash/awk, Git</li>
+            <li>Atlassian (Jira/Confluence)</li>
+        </ul>
+    </section>
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <ul class="languages-list">
+            <li>English (Native)</li>
+            <li>French (C1)</li>
+            <li>Mandarin Chinese (HSK4)</li>
+            <li>Dutch (A2)</li>
+        </ul>
+    </section>
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <p class="interests">World Taekwondo Federation Black Belt • Court of Master Sommeliers Level 1 • Cambridge ESOL CELTA • Special Olympics Volunteer</p>
+    </section>
+
+</body>
+</html>
